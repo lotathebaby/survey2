@@ -1,0 +1,78 @@
+body {
+    background-color: #422a14;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    height: 100vh;
+    width: 110%;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    color: black;
+    margin: 0.5em auto;
+}
+#description {
+    text-align: center;
+    font-style: italic;
+}
+form {
+    width: 100vw;
+    max-width: 500px;
+    max-height: 600px;
+    margin: 0 auto;
+    background-color: #7b5836;
+}
+fieldset {
+    background-color: #7b5836;
+    border: 10px;
+    padding: 20px;
+}
+input {
+    width: 80%;
+    min-height: 2em;
+}
+.checkbox {
+    height: 15px;
+    width: 15px;
+}
+optgroup {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+input, textarea {
+    background-color: #e1cbb1;
+    border: 1px solid #7b5836;
+}
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    height: 2em;
+    font-size: 1.2rem;
+    background-color: #7b5836;
+    min-width: 100px;
+}
+/* FOOTER */
+footer {
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 30%;
+    height: 60px;
+    background-color: rgba(63, 45, 33, 0.952);
+
+}
+.address {
+    margin-bottom: 5px;
+}
+a {
+    color: brown;
+}
+a:visited {
+    color: aqua;
+}
+a:hover {
+    color: black;
+}
